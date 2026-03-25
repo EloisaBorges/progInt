@@ -1,0 +1,54 @@
+body {
+    background-color: #F3E4C9;
+    font-family: Arial, sans-serif;
+    margin: 0;
+}
+
+#topo-principal {
+    background-color: #BFA28C;
+    color: white;
+    padding: 20px;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    min-height: 300px;
+}
+
+.card {
+    width: 100px;
+    height: 100px;
+    background-color: #BABF94;
+    color: #4C5C2D;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 8px;
+}
+
+p span {
+    font-weight: bold;
+    color:#A98B76;
+}
+
+h1,
+h2 {
+    color: #4C5C2D;
+}
+
+.card.destque {
+    border: 3px solid #25671E;
+    transform: scale(1.05);
+}
+
+button:hover {
+    background-color: #DBCEA5;
+    cursor: pointer;
+}
+
+nav ul li:nth-child(2) {
+    text-transform: uppercase;
+}
