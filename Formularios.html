@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Formulário Iniciante</title>
+</head>
+<body>
+
+    <form action="#">
+        <h1>Tipos de Inputs HTML5</h1>
+
+        <fieldset>
+            <legend>Identificação de Acesso</legend>
+            <label>Nome:</label>
+            <input type="text" placeholder="Nome Completo">
+            <br><br>
+            <label>Senha:</label>
+            <input type="password">
+            <br><br>
+            <label>E-mail:</label>
+            <input type="email" placeholder="seu@email.com">
+        </fieldset>
+
+        <fieldset>
+            <legend>Agendamentos</legend>
+            
+            <label>Escolha a Data:</label>
+            <input type="date"> <br><br>
+
+            <label>Escolha a Hora:</label>
+            <input type="time"> <br><br>
+
+            <label>Escolha a Semana:</label>
+            <input type="week"> </fieldset>
+
+        <fieldset>
+            <legend>Preferência</legend>
+            
+            <input type="checkbox" id="nop">
+            <label for="nop">nop</label>
+            <br>
+            
+            <input type="checkbox" id="yep">
+            <label for="yep">yep</label>
+        </fieldset>
+
+        <fieldset>
+            <legend>Enviar Arquivos e Links</legend>
+            
+            <label>Envie seu documento (arquivo):</label>
+            <input type="file"> <br><br>
+
+            <label>Link do seu site (url):</label>
+            <input type="url" placeholder="https://exemplo.com">
+            <br><br>
+
+            <label>Deixe um comentário (textarea):</label><br>
+            <textarea rows="5" placeholder="Escreva aqui..."></textarea>
+        </fieldset>
+
+        <br>
+        <button type="submit">Enviar Dados</button>
+
+    </form>
+
+</body>
+</html>
