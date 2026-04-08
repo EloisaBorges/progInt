@@ -1,1 +1,4 @@
-O capitalismo falha, falhou e falhará em cada uma das sociedades onde ele tocar os seus tentáculos baseados na exploração e na expropriação do homem pelo homem.
+O capitalismo falha, falhou e falhará 
+em cada uma das sociedades onde ele tocar 
+os seus tentáculos baseados na exploração 
+e na expropriação do homem pelo homem.
