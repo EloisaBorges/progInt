@@ -1,39 +1,17 @@
+.carousel-img {
+    height: 450px;
+    object-fit: cover;
+}
+
 body {
-    background-color: #1a1a1a;
-    color: white;
-    font-family: 'Comic Sans MS', cursive, sans-serif; /* Mantendo a vibe do teu blog */
-}
-
-.caixa {
-    max-width: 600px;
-    margin: 0 auto;
-    padding: 20px;
-}
-
-.cabecalho, .secao {
-    background-color: #DCF0C3;
-    border: 2px solid #A47251;
-    border-radius: 15px;
-    padding: 20px;
-    text-align: center;
-}
-
-h1, h2 {
-    color: #DD9E59;
-    margin-bottom: 15px;
-}
-
-/* Ajustando o List Group do Bootstrap */
-.list-group-item {
-    border-bottom: 1px dashed #F0D8A1 !important;
+    background-color: #85b685;
 }
 
 .card {
-    border: 2px solid #A47251;
-    border-radius: 10px;
+    border-radius: 12px;
+    border: none;
 }
 
-/* Deixar o carousel com borda */
-.carousel-inner {
-    border: 2px solid #A47251;
+.navbar {
+    z-index: 1000;
 }
